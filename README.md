@@ -8,9 +8,8 @@ Microlearning webapp is the webapp microservice which is a part of the workcale 
   
 ### Build docker image
 
-`yarn build`
+`yarn build`<br>
 `docker build -t microlearning-webapp .`
-In the project directory, you can run:
 
 ### `yarn start`
 
