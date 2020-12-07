@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `http://localhost:8080/api/v1/microlearning/articles`;
+    const apiUrl = `http://api.microlearning.workcale.io/api/v1/microlearning/articles`;
     axios.get(apiUrl).then((wikis) => {
       const allWikis = wikis.data;
       console.log(allWikis);
